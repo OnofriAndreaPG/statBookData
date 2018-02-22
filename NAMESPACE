@@ -1,9 +1,4 @@
 importFrom(drc, drm)
 importFrom(utils, tail)
 import(stats)
-export(linear, parabolic, poly.3, powerCurve, logCurve, negExp,
-  asymReg, extremeValue, hill, hillMax, chapman,
-  rational.1, rational.2, polyInv.2, hyperbolic, allometric,
-  gompGrowth.1, gompGrowth.2, gompGrowth.3, expoGrowth, expoGrowth.2,
-  firstOrder, firstOrder.2, truncGauss, gaussian, cousens85,
-  logiGrowth.1, logiGrowth.2, logiGrowth.3, logiGrowth.4)
+export(linear, parabolic, firstOrder, cousens85)
