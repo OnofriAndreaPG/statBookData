@@ -202,8 +202,8 @@ function(fixed = c(NA, NA), names = c("init", "k"))
       x <- dataf[, 1]
       y <- dataf[, 2]
 
-      YWF <- max(y) * 1.05
-      YL <- 1 - y/YWF * 100
+      YWF <- max(y)+10e-06
+      YL <- (1 - y/YWF)*100
       #regression on pseudo y values
       pseudoY <- 1 /  (YL + 0.000001)
       pseudoX <- 1 / (x + 0.00001)
