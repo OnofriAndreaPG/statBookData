@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "importFrom(drc, drm)\nimportFrom(utils, tail)\nimport(stats)\nexport(linear, parabolic, poly.3, powerCurve, logCurve, negExp,\n  asymReg, extremeValue, hill, hillMax, chapman,\n  rational.1, rational.2, polyInv.2, hyperbolic, allometric,\n  gompGrowth.1, gompGrowth.2, gompGrowth.3, expoGrowth, expoGrowth.2,\n  firstOrder, firstOrder.2, truncGauss, gaussian, cousens85,\n  logiGrowth.1, logiGrowth.2, logiGrowth.3, logiGrowth.4)\n",
+    "created" : 1519309472976.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3077461475",
+    "id" : "A6C0B204",
+    "lastKnownWriteTime" : 1519310201,
+    "last_content_update" : 1519310201831,
+    "path" : "~/Documents/_DBXAndrea/Dropbox/_Lavoro/MyUtilities/RPackages/statBook/NAMESPACE",
+    "project_path" : "NAMESPACE",
+    "properties" : {
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_namespace"
+}
